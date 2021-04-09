@@ -1,0 +1,63 @@
+.cart-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);;
+}
+
+.bike-content{
+    display: flex;
+    align-items: center;
+}
+
+.bike-content img{
+    margin-right: 2rem;
+}
+
+.bike-content div{
+    margin-top: 1rem;
+}
+
+.bike-content div p{
+    text-transform: capitalize;
+}
+
+.cart-section{
+    display: flex;
+    align-items: center;
+}
+
+.cart-section div{
+    margin-left: 2rem;
+}
+
+.cart-quantity{
+    display: flex;
+    align-items: center;
+}
+
+.cart-quantity button, .clear-cart-item{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.clear-cart-item{
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.value{
+    border: 1px solid black;
+    padding: 0.3rem 1rem;
+}
+
+.remove{
+    margin-left: 2rem;
+}
+
+.cart-item-price{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
