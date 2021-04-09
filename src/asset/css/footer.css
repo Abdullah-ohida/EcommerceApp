@@ -1,0 +1,91 @@
+footer {
+    padding: 1rem 2rem;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.03);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .flex-right {
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  
+  .flex-right div {
+    margin-right: 4rem;
+  }
+  
+  .flex-right div button {
+    color: black;
+    line-height: 1.5;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: capitalize;
+  }
+  
+  .flex-left {
+    width: 400px;
+  }
+  
+  .nav-toggle {
+    display: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-toggle i {
+    font-size: 1.5rem;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  @media (max-width: 900px) {
+    .right-nav {
+      display: none;
+    }
+  
+    .nav-toggle {
+      display: block;
+      position: absolute;
+      right: 4%;
+      cursor: pointer;
+      outline: none;
+    }
+  
+    .left-nav {
+      display: flex;
+    }
+  
+    footer {
+      display: block;
+      height: auto;
+    }
+  
+    .flex-left {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 60%;
+      margin: 0 auto 3rem auto;
+    }
+  
+    .flex-right {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .flex-left {
+      width: 80%;
+    }
+  } 

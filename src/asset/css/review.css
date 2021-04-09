@@ -1,0 +1,53 @@
+/* Review section */
+.review-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.review-section div {
+  margin-right: 5rem;
+}
+
+.review-section h1 {
+  line-height: 2;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.review-section p {
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+.review-section p i {
+  margin-right: 1rem;
+}
+
+.img-carousel {
+  display: flex;
+  align-items: center;
+}
+
+.img-carousel button {
+  border: none;
+  background-color: black;
+  padding: 0.3rem 1rem;
+  transition: all 0.5s linear;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 5px;
+}
+
+.right {
+  left: 55%;
+}
+
+.left {
+  left: 18%;
+}
+
+.img-carousel button i {
+  color: white;
+}

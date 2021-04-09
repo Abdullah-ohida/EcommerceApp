@@ -1,0 +1,84 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.container{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+  
+}
+.nav-container, .page-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-nav,
+.right-nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.5rem 0rem 1.5rem;
+}
+
+.left-nav p,
+.right-nav button {
+  margin-right: 2rem;
+  color: #000000;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.right-nav .auth-btn {
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+}
+
+#btn {
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.cart {
+  position: relative;
+}
+
+
+.cart p{
+  background-color: red;
+  text-align: center;
+  width: 30px;
+  height: 10;
+  color: white;
+  font-weight: bold;
+  padding: 0.1rem 0rem;
+  border-radius: 100%;
+  position: absolute;
+  top: -40%;
+  right: -40%;
+}
+
+

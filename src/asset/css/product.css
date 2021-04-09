@@ -1,0 +1,84 @@
+.product-container{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 2.5rem;
+    line-height: 3;
+    display: block;
+}
+
+.page-content{
+    min-height: 80vh;
+    width: 100%
+}
+
+
+.bike-slider img{
+    width: 800px;
+}
+
+.page h1{
+    font-size: 3.2rem;
+    text-transform: capitalize;
+    line-height: 2;
+}
+
+.page p{
+    font-size: 1.5rem;
+    color: gray;
+    color: rgba(172,171,170,1);
+    width: 600px;
+    line-height: 1.8;
+}
+
+.search{
+    margin-top: 2rem;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.search input{
+    width: 100%;
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+    border: none;
+    margin-right: 1rem;
+    
+}
+
+.search input::placeholder{
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+.search button{
+    padding: 0.5rem 1.2rem;
+    text-transform: capitalize;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+.search button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Product Item */
+
+
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
